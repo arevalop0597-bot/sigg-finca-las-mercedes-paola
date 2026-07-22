@@ -402,3 +402,56 @@ button:focus-visible {
     font-family: var(--dato);
     font-size: 12px;
 }
+/* ---------- 10. Pantallas pequeñas ---------- */
+@media (max-width: 900px) {
+    .modulos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .proyecto {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .portada__marca {
+        width: 300px;
+        height: 300px;
+        opacity: 0.08;
+    }
+}
+
+@media (max-width: 620px) {
+    .cabecera {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    .portada {
+        padding: 56px 24px 70px;
+    }
+
+    .modulos {
+        grid-template-columns: 1fr;
+    }
+
+    .seccion {
+        padding: 56px 24px;
+    }
+}
+
+/* ---------- 11. Respetar a quien prefiere menos movimiento ---------- */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    * {
+        transition: none !important;
+    }
+}
