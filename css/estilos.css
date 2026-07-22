@@ -387,3 +387,18 @@ button:focus-visible {
     font-size: 13px;
     text-align: right;
 }
+
+/* ---------- 9. Pie ---------- */
+.pie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: var(--ancho);
+    margin: 0 auto;
+    padding: 30px 24px 44px;
+    border-top: 1px solid var(--borde);
+    color: var(--tinta-suave);
+    font-family: var(--dato);
+    font-size: 12px;
+}
