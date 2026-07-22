@@ -72,3 +72,67 @@ button:focus-visible {
 .saltar:focus {
     top: 16px;
 }
+/* ---------- 3. Elementos que se repiten ---------- */
+
+/* Etiqueta pequeña sobre los títulos */
+.cintillo {
+    margin-bottom: 14px;
+    color: var(--cuero);
+    font-family: var(--dato);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.cintillo--claro {
+    color: var(--ocre);
+}
+
+/* Botones */
+.boton {
+    display: inline-block;
+    padding: 13px 26px;
+    border: 1.5px solid var(--tinta);
+    border-radius: var(--radio);
+    color: var(--tinta);
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.boton:hover {
+    background-color: var(--tinta);
+    color: var(--hueso);
+}
+
+.boton--fuerte {
+    border-color: var(--ocre);
+    background-color: var(--ocre);
+    color: var(--tinta);
+}
+
+.boton--fuerte:hover {
+    background-color: var(--cuero);
+    border-color: var(--cuero);
+    color: var(--blanco);
+}
+
+/* Etiqueta de estado */
+.chip {
+    display: inline-block;
+    padding: 4px 11px;
+    border: 1px solid var(--borde);
+    border-radius: 999px;
+    color: var(--tinta-suave);
+    font-family: var(--dato);
+    font-size: 11px;
+    letter-spacing: 0.05em;
+}
+
+.chip--activo {
+    border-color: var(--ocre);
+    background-color: #FDF4E3;
+    color: var(--cuero);
+}
