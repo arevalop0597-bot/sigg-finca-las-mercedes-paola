@@ -1,0 +1,27 @@
+/* ============================================================
+   SIGG — Finca Las Mercedes
+   Hoja de estilos principal
+   ============================================================ */
+
+/* ---------- 1. Variables (los colores y medidas del sitio) ---------- */
+:root {
+    /* Colores */
+    --pasto-hondo: #1B3024;   /* verde de pradera en sombra: fondos oscuros */
+    --pasto:       #2F5340;   /* verde medio */
+    --ocre:        #D69A2D;   /* pasto seco: color de acento */
+    --cuero:       #8A5A34;   /* cuero: acento secundario */
+    --tinta:       #221C16;   /* texto principal */
+    --tinta-suave: #5C544B;   /* texto secundario */
+    --hueso:       #FAFAF8;   /* fondo de la página */
+    --borde:       #E2DFD7;   /* líneas y bordes */
+    --blanco:      #FFFFFF;
+
+    /* Tipografías */
+    --display: "Big Shoulders Display", "Big Shoulders", "Arial Narrow", sans-serif;
+    --texto:   "Public Sans", system-ui, sans-serif;
+    --dato:    "IBM Plex Mono", monospace;
+
+    /* Medidas */
+    --ancho: 1180px;
+    --radio: 4px;
+}
